@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Roboto:wght@100&display=swap');
+
+body{
+    background-color: antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation bar*/
+
+nav{
+   font-family: 'Ubuntu';
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 75px;
+    background-color: black;
+    color: white;
+}
+
+.logoitem{
+    align-items: center;
+    font-size: 28px;
+    margin-right: 60px;
+    padding-left: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.navitem1 a{
+    font-size: 18px;
+    padding-left: 6px;
+}
+.navitem2 a{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.brand img{
+    width: 60px;
+    padding-top: 7px;
+    padding-left: 15px;
+}
+
+/*main Page*/
+
+.container{
+    min-height: 69vh;
+    font-size: 15px;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 30px auto;
+    width: 80%;
+    border-radius: 12px;
+    font-family: 'Varela Round','san-serif';
+}
+
+/*bottom*/
+
+.bottom{
+    position: sticky;
+    height: 105px;
+    background-color: black;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.fad, .far{
+    margin-top: 8px;
+}
+
+#myProgessBar{
+    width: 80vw;
+}
+
